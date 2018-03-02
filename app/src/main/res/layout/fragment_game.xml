@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tesseract.quiz20.GameFragment"
+    android:background="@color/backgroundPage">
+
+
+
+    <ImageView
+        android:id="@+id/iv_flag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/progressBar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/l_score"
+        android:background="@drawable/belgium" />
+
+    <Button
+        android:id="@+id/b_answer4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/l_score"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/l_score"
+        android:layout_marginBottom="70dp"
+        android:background="#FF8A80"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/b_answer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b_answer4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="13dp"
+        android:background="#FF8A80"
+        android:text=""
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/b_answer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b_answer3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="11dp"
+        android:background="#FF8A80"
+        android:text=""
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/b_answer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b_answer2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="13dp"
+        android:background="#FF8A80"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/l_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Score: 0"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/l_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/iv_flag"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/Question"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b_answer1"
+        android:max="7"
+        android:soundEffectsEnabled="false" />
+
+</RelativeLayout>

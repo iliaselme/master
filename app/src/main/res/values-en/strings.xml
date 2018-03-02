@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FlagQuiz</string>
+    <string name="langPref">Application in English</string>
+    <string name="Question">Question</string>
+    <string name="Score">"Score: "</string>
+    <string name="Passed">"Passed: "</string>
+    <string name="Retry">RETRY</string>
+    <string name="Home">Home</string>
+    <string name="HighScores">High Scores</string>
+    <string name="Settings">Settings</string>
+    <string name="Play">PLAY</string>
+    <string name="BestScore">BEST SCORES</string>
+    <string name="NameChampion">Name</string>
+    <string name="Toevoegen">Add</string>
+    <string name="ToastErrorInvalidValue">Not a valid country</string>
+    <string name="ToastErrorUsername">Fill in username</string>
+    <string name="Capital">Capital</string>
+    <string name="Land">"Country: "</string>
+    <string name="Search">Search</string>
+    <string name="SearchCountryInfo">"Search a country and see what's the capital and the flag of it. "</string>
+    <string name="SelectCountry">Select Country</string>
+</resources>

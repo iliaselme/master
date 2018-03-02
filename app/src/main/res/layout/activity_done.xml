@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tesseract.quiz20.DoneActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundPage"
+        android:elevation="4dp"
+        android:padding="20dp">
+
+
+        <LinearLayout
+            android:id="@+id/BtnGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="86dp"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/l_totalScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Score"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/l_totalQuestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Passed"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/b_retry"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:background="#FF8A80"
+                android:text="@string/Retry"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:hint="@string/NameChampion"
+                android:inputType="textPersonName"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnAddHighScore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/etName"
+                android:text="@string/Toevoegen"
+                android:visibility="gone" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

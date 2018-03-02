@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FlagQuiz</string>
+    <string name="langPref">Application is in het Nederlands</string>
+    <string name="Question">Vraag</string>
+    <string name="Score">"Punten: "</string>
+    <string name="Passed">"Geslaagd: "</string>
+    <string name="Retry">OPNIEUW PROBEREN</string>
+    <string name="Home">Hoofdpagina</string>
+    <string name="HighScores">Hoge scores</string>
+    <string name="Settings">Instellingen</string>
+    <string name="Play">SPEEL</string>
+    <string name="BestScore">BESTE SCORES</string>
+    <string name="NameChampion">Naam</string>
+    <string name="Toevoegen">Toevoegen</string>
+    <string name="ToastErrorInvalidValue">Geen geldig land</string>
+    <string name="ToastErrorUsername">Geef uw username</string>
+    <string name="Capital">Hoofdstad</string>
+    <string name="Land">"Land: "</string>
+    <string name="Search">Zoek</string>
+    <string name="SearchCountryInfo">Geef een land en bekijk wat de hoofdstad en zijn vlag is.</string>
+    <string name="SelectCountry">Zoek land in het engels</string>
+
+</resources>
